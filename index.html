@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aurebesh Translator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aurebesh Translator</h1>
+      <div class="form-container">
+        <h2>Basic to 𐌰𐍄𐍁𐌴𐌱𐌴𐍂𐌷</h2>
+        <form id="englishToAurebeshForm">
+          <input
+            type="text"
+            id="englishInput"
+            placeholder="Enter English text"
+            required
+          />
+          <button type="submit">Translate</button>
+          <button type="button" id="resetEnglish">Reset</button>
+        </form>
+        <p id="aurebeshOutput"></p>
+        <div id="englishKeyboard" class="keyboard"></div>
+      </div>
+      <div class="form-container">
+        <h2>𐌰𐍄𐍁𐌴𐌱𐌴𐍂𐌷 𐍃𐌾 Basic</h2>
+        <form id="aurebeshToEnglishForm">
+          <input
+            type="text"
+            id="aurebeshInput"
+            placeholder="Enter Aurebesh text"
+            required
+          />
+          <button type="submit">𐍃𐍁𐌰𐌽𐍂𐌻𐌰𐍃𐌴</button>
+          <button type="button" id="resetAurebesh">𐍁𐌴𐍂𐌴𐍃</button>
+        </form>
+        <p id="englishOutput"></p>
+        <div id="aurebeshKeyboard" class="keyboard"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
